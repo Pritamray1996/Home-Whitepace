@@ -1,0 +1,23 @@
+/* 
+ font-family: "Inter", serif;
+ font-family: "DM Sans", serif;
+ color code
+ #4F9CF9
+ #FFE492
+ #043873
+
+*/
+/* 
+Google Font
+ */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&display=swap');
+/*
+basic css 
+*/
+body{
+    font-family: "Inter", serif;
+    font-weight: 400; 
+    font-size: 18px;
+    background-color: #c4defd;
+    color: #fff;
+}
