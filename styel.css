@@ -21,3 +21,51 @@ body{
     background-color: #c4defd;
     color: #fff;
 }
+.theme-button{
+display: inline-block;
+background-color: #4F9CF9;
+border-radius: 8px;
+margin-left: 24px;
+padding:10px 20px !important ;
+}
+.theme-button img{
+    margin-left: 10px;
+}
+.theme-button-small{
+display: inline-block;
+background-color:#FFE492 ;
+border-radius: 8px;
+padding:10px 20px !important ;
+color: #043873 !important;
+margin-left: 24px;
+}
+/* header area */
+.header-area{
+    background-color: #043873;
+    padding: 16px 0;
+}
+.header-area .nav-link {
+    color: #ffffff;
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    padding:10px 20px !important ;
+}
+
+
+@media (max-width: 991px) {
+.theme-button{
+    width: 100%;
+    text-align: center;
+    margin-left:0;
+    margin-top: 10px;
+}  
+.theme-button-small{
+    width: 100%;
+    text-align: center;
+    margin-left:0;
+    margin-top: 10px;
+}
+.header-area .nav-link {
+    padding: 10px 0 !important;
+}
+}
