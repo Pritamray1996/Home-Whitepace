@@ -40,6 +40,15 @@ border-radius: 8px;
 padding:8px 16px !important ;
 color: #043873 !important;
 }
+.theme-button-three{
+display: inline-block;
+background-color:#ffffff ;
+border-radius: 8px;
+border: 1px solid #FFE492;
+padding:8px 16px !important ;
+color: #043873 !important;
+text-decoration: none;
+}
 .header-area .theme-button  {
     margin-left: 20px;
 }
@@ -232,4 +241,55 @@ font-size: 14px;
  .Customise-area .theme-image  {
 margin-bottom: 50px;
  }
+}
+/* pricing area */
+.pricing-area{
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+.pricing-area .theme-text{
+    margin-bottom: 60px;
+}
+.single-pricing{
+    color:#212529;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    padding: 32px 36px;
+}
+.single-pricing ul{
+    margin: 0;
+    padding: 0;
+    margin: 25px 0;
+}
+.single-pricing h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+.single-pricing h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 15px 0;
+}
+.single-pricing ul li{
+    list-style: none;
+    margin-bottom: 28px;
+}
+.single-pricing ul li:last-child{
+margin: 0;
+}
+.special-pricing{
+    background-color: #043873;
+    color: #ffffff;
+    padding: 80px 44px;
+}
+.special-pricing h2{
+color: #FFE492;
+}
+@media (max-width: 991px){
+   .pricing-area{
+    padding:60px 0;
+   }
+   .single-pricing{
+    margin-top: 30pxgit;
+   } 
 }
