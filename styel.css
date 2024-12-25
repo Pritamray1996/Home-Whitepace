@@ -220,3 +220,16 @@ font-size: 14px;
         font-size: 63px;
     }
 }
+/* Customise-area */
+.Customise-area{
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+@media (max-width: 991px){
+    .Customise-area{
+        padding: 80px 0;
+ }
+ .Customise-area .theme-image  {
+margin-bottom: 50px;
+ }
+}
