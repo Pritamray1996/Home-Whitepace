@@ -293,6 +293,7 @@ color: #FFE492;
     margin-top: 30pxgit;
    } 
 }
+/* your-work-area */
 .your-work-area {
     background-color: #043873;
     color: #ffffff;
@@ -306,4 +307,9 @@ color: #FFE492;
 }
 .your-work-area .theme-button{
     margin-top: 40px;
+}
+/* data area */
+.your-data-area{
+    padding: 100px 0;
+    background-color: #ffffff;
 }
