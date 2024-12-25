@@ -293,3 +293,17 @@ color: #FFE492;
     margin-top: 30pxgit;
    } 
 }
+.your-work-area {
+    background-color: #043873;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.your-work-area .theme-text h3{
+    color: #ffffff;
+}
+.your-work-area .theme-text p{
+    color: #ffffff;
+}
+.your-work-area .theme-button{
+    margin-top: 40px;
+}
