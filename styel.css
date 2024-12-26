@@ -346,3 +346,36 @@ color: #FFE492;
 margin-bottom: 50px;
     }
 }
+/* apps area */
+.apps-area{
+    background-image: url(img/apps-bg-img.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.apps-area .theme-text h3{
+    color: #ffffff;
+}
+.apps-area .theme-text p{
+    color: #ffffff;
+}
+.apps-area .theme-text{
+   padding-left:80px;
+}
+.apps-area .theme-button{
+    margin-top: 40px;
+}
+
+@media (max-width: 991px){
+    .apps-area{
+        padding: 80px 0;
+    }
+    .apps-area .apps-image{
+        margin-bottom: 100px;
+    }
+    .apps-area .theme-text{
+       padding-left:0;
+    }
+   
+}
+
