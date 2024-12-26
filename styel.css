@@ -287,7 +287,7 @@ color: #FFE492;
 }
 @media (max-width: 991px){
    .pricing-area{
-    padding:60px 0;
+    padding:80px 0;
    }
    .single-pricing{
     margin-top: 30pxgit;
@@ -308,8 +308,41 @@ color: #FFE492;
 .your-work-area .theme-button{
     margin-top: 40px;
 }
+@media (max-width: 991px){
+    .your-work-area {
+        padding: 80px 0;
+    }
+}
 /* data area */
 .your-data-area{
     padding: 100px 0;
     background-color: #ffffff;
+}
+@media (max-width: 991px){
+    .your-data-area{
+        padding: 80px 0;
+    }
+}
+/* sponsors area */
+.sponsors-area{
+    background-color: #ffffff;
+    padding:100px 0;
+}
+.sponsors-area .theme-text {
+    margin-bottom: 80px;
+}
+.single-sponsors img{
+    height: 50px;
+    width: auto;
+
+}
+@media (max-width: 991px){
+    .sponsors-area{
+        padding-top: 80px;
+        padding-bottom: 30px;
+
+    }
+.single-sponsors{
+margin-bottom: 50px;
+    }
 }
