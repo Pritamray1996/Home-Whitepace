@@ -481,3 +481,58 @@ margin-bottom: 50px;
             margin-right: 40px;
         }
     }
+    /* footer-area */
+    .footer-area{
+        padding-top: 100px;
+        background-color: #043873;
+        border-top: 1px solid #4F9CF9;
+    }
+    .footer-top{
+        padding-bottom: 40px;
+    }
+    .footer-about img{
+        margin-bottom: 15px;
+    }
+    .footer-link h3{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 15px;
+
+    }
+    .footer-link a{
+       text-decoration: none;
+       color: #ffffff;
+       padding-bottom: 10px;
+       display: inline-block;
+       transition: .3s;
+    }
+    .footer-link a:hover{
+        color:#FFE492;
+ 
+     }
+    .footer-link ul{
+        margin: 0;
+        padding: 0;
+    }
+    .footer-link li{
+        list-style: none;
+    }
+    .footer-contractn h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+
+    }
+    @media (max-width: 991px){
+        .footer-top{
+            text-align: center;
+        }
+        .footer-about{
+            margin-bottom:30px;
+        }
+        .footer-link{
+            margin: 30px 0;
+        }
+        .footer-contract{
+            margin-top: 30px;
+        }
+    }
